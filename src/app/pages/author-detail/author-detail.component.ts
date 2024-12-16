@@ -37,7 +37,7 @@ export class AuthorDetailComponent {
       { id: 14, title: 'The Godfather', authorId: 8 },
       { id: 15, title: 'The Picture of Dorian Gray', authorId: 9 }
     ];
-    
+
     const authors = [
       { id: 1, name: 'Patrick Rothfuss' },
       { id: 2, name: 'Brandon Sanderson' },

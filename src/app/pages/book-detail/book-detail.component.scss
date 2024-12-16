@@ -74,3 +74,15 @@
     background-color: #1a6b8f; /* Darker blue on hover */
     transform: scale(1.05); /* Slightly grow on hover */
 }
+
+.author-link {
+    color: #2980b9; /* Blue color */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-decoration: underline; /* Underline to indicate link */
+    font-weight: bold; /* Make it stand out */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.author-link:hover {
+    color: #1a6b8f; /* Darker blue on hover */
+}
