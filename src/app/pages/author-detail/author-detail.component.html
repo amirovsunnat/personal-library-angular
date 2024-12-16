@@ -1,0 +1,11 @@
+<div class="container">
+    <h2>{{ author.name }}</h2>
+    <h4>Books:</h4>
+    <ul>
+      <li *ngFor="let book of books">
+        <a [routerLink]="['/books', book.id]">{{ book.title }}</a> <!-- Ensure this is correct -->
+      </li>
+    </ul>
+    <a routerLink="/authors">Back to Author List</a>
+  </div>
+  

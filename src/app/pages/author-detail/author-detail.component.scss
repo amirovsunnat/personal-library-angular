@@ -1,0 +1,45 @@
+.container {
+    padding: 20px;
+    text-align: center;
+  
+    h2 {
+      color: #2c3e50;
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+  
+    p {
+      color: #666;
+      font-size: 1rem;
+      max-width: 600px;
+      margin: 0 auto 20px;
+    }
+  
+    h4 {
+      color: #34495e;
+      margin-top: 20px;
+    }
+  
+    ul {
+      list-style-type: none;
+      padding: 0;
+  
+      li {
+        color: #2980b9;
+        margin: 5px 0;
+      }
+    }
+  
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      color: #2980b9;
+      text-decoration: none;
+      font-weight: bold;
+  
+      &:hover {
+        color: #f39c12;
+      }
+    }
+  }
+  
